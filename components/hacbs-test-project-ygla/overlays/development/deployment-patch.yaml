@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-ygla
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/bootstrap/rhtap-demo-vnsf-tenant/rhtap-demo-app/hacbs-test-project-ygla@sha256:4b5f9d886756a486c6caa3e8f35a1f32a8e2f51a3d2e1f8c124d424d2d87d0c7
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
